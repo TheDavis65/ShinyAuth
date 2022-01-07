@@ -10,5 +10,5 @@ server <- function(input, output, session){
     session$reload()
   })
 }
-
+shinyApp(ui = ui, server = server)
 #secure_server(server)

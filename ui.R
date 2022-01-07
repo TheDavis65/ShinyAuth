@@ -18,5 +18,5 @@ ui <- fluidPage(
     )
   )
 )
-
+shinyApp(ui = ui, server = server)
 #secure_ui(ui)
