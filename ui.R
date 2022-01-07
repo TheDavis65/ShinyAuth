@@ -1,7 +1,7 @@
 library(shiny)
 library(shinythemes)
 library(markdown)
-
+library(rsconnect)
 ####################################
 # User Interface                   #
 ####################################
@@ -47,7 +47,7 @@ ui <- fluidPage(theme = shinytheme("darkly"),
                   "sign_out",
                   "Log af",
                   icon = icon("sign-out-alt"),
-                  class = "pull-right"
+                  class = "pull-left"
                 )
 ) # fluidPage()
 
