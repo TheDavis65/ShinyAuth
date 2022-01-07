@@ -1,6 +1,8 @@
 library(shiny)
 library(polished)
 library(config)
+library(shinythemes)
+library(markdown)
 
  # configur polished
 
