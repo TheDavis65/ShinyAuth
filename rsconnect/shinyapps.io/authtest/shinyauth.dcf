@@ -1,0 +1,11 @@
+name: shinyauth
+title:
+username:
+account: authtest
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5407531
+bundleId: 5445672
+url: https://authtest.shinyapps.io/shinyauth/
+when: 1641588824.15101
+lastSyncTime: 1641588824.15101

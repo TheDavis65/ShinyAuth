@@ -1,4 +1,4 @@
-
+install.packages('rsconnect')
 ui <- fluidPage(
   fluidRow(
     column(
@@ -19,4 +19,4 @@ ui <- fluidPage(
   )
 )
 
-secure_ui(ui = ui)
+secure_ui(ui)
