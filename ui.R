@@ -1,6 +1,3 @@
-library(shiny)
-library(polished)
-library(config)
 
 ui <- fluidPage(
   fluidRow(
@@ -22,4 +19,4 @@ ui <- fluidPage(
   )
 )
 
-secure_ui(ui)
+#secure_ui(ui)

@@ -11,4 +11,4 @@ server <- function(input, output, session){
   })
 }
 
-secure_server(server)
+#secure_server(server)
